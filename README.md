@@ -1,4 +1,5 @@
 # myInfo_project
+![imagen](https://github.com/user-attachments/assets/84504fc2-117b-4573-8677-369aedb55304)
 
 This is a simple web page about me, my hobbies en my contact info (gmail in web page is fake).
 
