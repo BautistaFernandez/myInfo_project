@@ -1,0 +1,73 @@
+.first
+{
+    height: 100%;
+    font-family: sans-serif;
+    margin: 2rem;
+    background: linear-gradient(45deg, #00FFFF, #33CCFF, #3399FF, #3366FF, #3333FF, #3300FF, #000000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.second
+{
+    height: 100%;
+    font-family: sans-serif;
+    margin: 2rem;
+    background: linear-gradient(45deg, #FF5733, #FF8D33, #FFC133, #FFEC33, #C1FF33, #8DFF33, #33FF57);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.third
+{
+    height: 100%;
+    font-family: sans-serif;
+    margin: 2rem;
+    background: linear-gradient(45deg, #FF33FF, #CC33FF, #9933FF, #6633FF, #3333FF, #3333CC, #333399);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.fourth
+{
+    height: 100%;
+    font-family: sans-serif;
+    margin: 2rem;
+    background: linear-gradient(45deg, #33FFDD, #33FFAA, #33FF77, #33FF44, #33FF11, #66FF33, #99FF33);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation
+{
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header h1
+{
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav
+{
+    margin-botton: 2rem;
+}
+
+footer
+{
+    padding: 20px;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.btn-primary
+{
+    margin-top: 1rem;
+}
+
